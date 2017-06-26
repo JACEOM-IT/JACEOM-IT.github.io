@@ -18,7 +18,9 @@ html {
 }
 
 body {
-	background: ("https://www.planwallpaper.com/static/images/energy-efficiency-background.jpg");
+	background-image: ("https://www.planwallpaper.com/static/images/energy-efficiency-background.jpg");
+	background-repeat: no-repeat;
+	background-positions: fixed;
 	background: $white;
   font: 18px/1.4 $helvetica;
   color: $darkGray;
